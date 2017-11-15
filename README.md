@@ -2,14 +2,14 @@
 Android library for internet connection detection with callbacks.
 
 # Step 1. Add the JitPack repository to your build file i.e. build.gradle at the end of repositories:
-<code>
+```
 allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
 	}
-</code>
 
+```
 
 
