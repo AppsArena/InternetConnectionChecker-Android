@@ -19,5 +19,22 @@ allprojects {
 	}
 
 ```
+# How to use
+```
+//check internet connection and perform action
+        new InternetConnection(this, new InternetConnectionListener() {
+            @Override
+            public void onInternetConnectionEnable() {
+                //TODO PERFORM TASKS ON INTERNET CONNECTION ENABLE
+		....
+            }
+
+            @Override
+            public void onInternetConnectionDisable() {
+                //TODO PERFORM TASKS ON INTERNET CONNECTION DISABLE
+		....
+            }
+});
+```
 
 
