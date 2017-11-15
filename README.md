@@ -12,4 +12,12 @@ allprojects {
 
 ```
 
+# Step 2. Add the dependency
+```
+	dependencies {
+	        compile 'com.github.Rupesh-Saxena:InternetConnectionChecker-Android:1.0'
+	}
+
+```
+
 
