@@ -19,6 +19,12 @@ allprojects {
 	}
 
 ```
+
+# Manifest Permission
+```
+ <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ ```
+ 
 # How to use
 ```
 //check internet connection and perform action
